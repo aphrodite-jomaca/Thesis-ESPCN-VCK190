@@ -1,0 +1,238 @@
+01:13:00 **** Incremental Build of configuration Hardware for project espcnv2 ****
+make incremental 
+make: Nothing to be done for 'incremental'.
+01:13:01 **** Incremental Build of configuration Hardware for project main ****
+make -j48 all 
+aarch64-linux-gnu-g++  -O2 -pipe -g -feliminate-unused-debug-types  -std=c++1y -DVITIS_PLATFORM=xilinx_vck190_base_202210_1 -D__USE_XOPEN2K8 -I/home/Xilinx/Vitis_HLS/2022.1/include/ -I"/opt/xilinx/xrt/include" -I"/home/Xilinx/Vitis/2022.1/aietools/include" -I"/home/Xilinx/Vitis/2022.1/include" -I/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/xrt/ -O2 -g -Wall -c -fmessage-length=0 --sysroot=/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux -o "src/host_xrt.o" "../src/host_xrt.cpp"
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:14: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   14 | #pragma clang diagnostic push
+      | 
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:15: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   15 | #pragma clang diagnostic ignored "-Wextern-c-compat"
+      | 
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:22: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   22 | #pragma clang diagnostic pop
+      | 
+In file included from /home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/vector:66,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:6,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h: In static member function 'static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator)':
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h:91: note: '-Wmisleading-indentation' is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+   91 |               for (; __first != __last; ++__first, (void)++__cur)
+      | 
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h:91: note: adding '-flarge-source-files' will allow for more column-tracking support, at the expense of compilation time and memory
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:35,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/complexint.h: In function 'int as_int(cuint16_t)':
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/complexint.h:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   83 |   return *(int *)&v;
+      | 
+../src/host_xrt.cpp: In function 'int main(int, char**)':
+../src/host_xrt.cpp:124: warning: variable 'rval' set but not used [-Wunused-but-set-variable]
+  124 |          int rval = xrtRunSetArg(mm2s_rhdl, 0, in_bohdl0);
+      | 
+../src/host_xrt.cpp:161: warning: unused variable 'state_mm2s' [-Wunused-variable]
+  161 |          auto state_mm2s = xrtRunWait(mm2s_rhdl);
+      | 
+../src/host_xrt.cpp:164: warning: unused variable 'state_s2mm' [-Wunused-variable]
+  164 |          auto state_s2mm = xrtRunWait(s2mm_rhdl);
+      | 
+aarch64-linux-gnu-g++ -o "main" src/aie_control_xrt.o src/host_xrt.o -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -lxilinxopencl -lgcc -lxrt_core -lxrt_coreutil -ladf_api_xrt -lxaiengine -lpthread -lrt -ldl -lcrypt -lstdc++ -L/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux/usr/lib/ -L"/opt/xilinx/xrt/lib" -L"/home/Xilinx/Vitis/2022.1/aietools/lib/aarch64.o" --sysroot=/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux
+01:13:33 **** Incremental Build of configuration Hardware for project pl_kernels ****
+make -j48 all 
+make: Nothing to be done for 'all'.
+01:13:34 **** Incremental Build of configuration Hardware for project espcnv2_system_hw_link ****
+make all 
+make: Nothing to be done for 'all'.
+01:13:35 **** Incremental Build of configuration Hardware for project espcnv2_system ****
+make all 
+Running Package Step for the System Project.
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package.cfg ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package.cfg   ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+Option Map File Used: '/home/Xilinx/Vitis/2022.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/reports/package
+	Log files: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/logs/package
+Running Dispatch Server on port: 34202
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary, at Sun Oct  2 01:13:48 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sun Oct  2 01:13:48 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/reports/package/v++_package_binary_container_1_guidance.html', at Sun Oct  2 01:13:51 2022
+INFO: [v++ 60-895]   Target platform: /home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/hw/hw.xsa'
+INFO: [v++ 60-2256] Packaging for hardware
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+WARNING: [v++ 82-3848] The AIE/PL interface does not match in the Xilinx Support Archive (XSA): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa and AIE archive (libadf.a): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2/Hardware/libadf.a
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-3881] device architecture set to versal
+INFO: [v++ 82-1012] deleting existing /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+INFO: [v++ 82-1022] generating /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+INFO: [v++ 82-3884] generating pdi for arch versal with bif /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+
+
+****** Xilinx Bootgen v2022.1
+  **** Build date : Apr 18 2022-16:09:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+[INFO]   : Bootimage generated successfully
+
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-1018] deleting existing sd_card directory
+INFO: [v++ 82-1011] creating sd_card directory
+INFO: [v++ 82-1083] Deleting existing sd_card.img
+INFO: [v++ 82-3528] mkfsimage command run: /home/Xilinx/Vitis/2022.1/scripts/vitis/util/mkfsImage.sh -s /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/sd_card/ -o /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/sd_card.img -m 1 -e /home/atzomaka/xilinx-versal-common-v2022.1/rootfs.ext4
+SDCARD_SIZE_KB: 75855
+FAT_SDCARD_SIZE: 1048576
+FATSIZE:1024
+fat_start:63
+fat_end:2096639
+fat_sector:2096577
+ext4_start:0
+ext4_sector:3485348
+EXT4SIZE:2048
+TOTALSIZE:3072
+dummy_ext4_sector:708956
+sd_card_fat_start:2048
+sd_card_ext4_start:2000896
+dummy_ext4_start:5486244
+2096577+0 records in
+2096577+0 records out
+1073447424 bytes (1.1 GB, 1.0 GiB) copied, 4.65785 s, 230 MB/s
+3485348+0 records in
+3485348+0 records out
+1784498176 bytes (1.8 GB, 1.7 GiB) copied, 7.57588 s, 236 MB/s
+708956+0 records in
+708956+0 records out
+362985472 bytes (363 MB, 346 MiB) copied, 1.51868 s, 239 MB/s
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 16s
+INFO: [v++ 60-1653] Closing dispatch client.
+Running Package Step for the System Project with AIE configured to not stop for Debug.
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package_aie_debug.cfg ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package_aie_debug.cfg   ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+Option Map File Used: '/home/Xilinx/Vitis/2022.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/reports/package
+	Log files: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/logs/package
+Running Dispatch Server on port: 45194
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary, at Sun Oct  2 01:17:07 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sun Oct  2 01:17:07 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/reports/package/v++_package_binary_container_1_guidance.html', at Sun Oct  2 01:17:09 2022
+INFO: [v++ 60-895]   Target platform: /home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/hw/hw.xsa'
+INFO: [v++ 60-2256] Packaging for hardware
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+WARNING: [v++ 82-3848] The AIE/PL interface does not match in the Xilinx Support Archive (XSA): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa and AIE archive (libadf.a): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2/Hardware/libadf.a
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-3881] device architecture set to versal
+INFO: [v++ 82-1012] deleting existing /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+INFO: [v++ 82-1022] generating /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+INFO: [v++ 82-3884] generating pdi for arch versal with bif /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+
+
+****** Xilinx Bootgen v2022.1
+  **** Build date : Apr 18 2022-16:09:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+[INFO]   : Bootimage generated successfully
+
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-1018] deleting existing sd_card directory
+INFO: [v++ 82-1011] creating sd_card directory
+INFO: [v++ 82-1083] Deleting existing sd_card.img
+INFO: [v++ 82-3528] mkfsimage command run: /home/Xilinx/Vitis/2022.1/scripts/vitis/util/mkfsImage.sh -s /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/sd_card/ -o /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/sd_card.img -m 1 -e /home/atzomaka/xilinx-versal-common-v2022.1/rootfs.ext4
+SDCARD_SIZE_KB: 75861
+FAT_SDCARD_SIZE: 1048576
+FATSIZE:1024
+fat_start:63
+fat_end:2096639
+fat_sector:2096577
+ext4_start:0
+ext4_sector:3485348
+EXT4SIZE:2048
+TOTALSIZE:3072
+dummy_ext4_sector:708956
+sd_card_fat_start:2048
+sd_card_ext4_start:2000896
+dummy_ext4_start:5486244
+2096577+0 records in
+2096577+0 records out
+1073447424 bytes (1.1 GB, 1.0 GiB) copied, 4.69011 s, 229 MB/s
+3485348+0 records in
+3485348+0 records out
+1784498176 bytes (1.8 GB, 1.7 GiB) copied, 7.60354 s, 235 MB/s
+708956+0 records in
+708956+0 records out
+362985472 bytes (363 MB, 346 MiB) copied, 1.56709 s, 232 MB/s
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 58s
+INFO: [v++ 60-1653] Closing dispatch client.

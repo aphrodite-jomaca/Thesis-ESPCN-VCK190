@@ -1,0 +1,6 @@
+01:13:00 **** Incremental Build of configuration Hardware for project espcnv2 ****
+make incremental 
+make: Nothing to be done for 'incremental'.
+
+01:13:00 Build Finished (took 590ms)
+

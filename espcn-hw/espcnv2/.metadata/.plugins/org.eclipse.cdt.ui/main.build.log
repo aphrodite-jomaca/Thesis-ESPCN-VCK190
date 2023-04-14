@@ -1,0 +1,64 @@
+01:13:01 **** Incremental Build of configuration Hardware for project main ****
+make -j48 all 
+aarch64-linux-gnu-g++  -O2 -pipe -g -feliminate-unused-debug-types  -std=c++1y -DVITIS_PLATFORM=xilinx_vck190_base_202210_1 -D__USE_XOPEN2K8 -I/home/Xilinx/Vitis_HLS/2022.1/include/ -I"/opt/xilinx/xrt/include" -I"/home/Xilinx/Vitis/2022.1/aietools/include" -I"/home/Xilinx/Vitis/2022.1/include" -I/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/xrt/ -O2 -g -Wall -c -fmessage-length=0 --sysroot=/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux -o "src/host_xrt.o" "../src/host_xrt.cpp"
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:14: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   14 | #pragma clang diagnostic push
+      | 
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:15: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   15 | #pragma clang diagnostic ignored "-Wextern-c-compat"
+      | 
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:36,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/acc_types.h:22: warning: ignoring '#pragma clang diagnostic' [-Wunknown-pragmas]
+   22 | #pragma clang diagnostic pop
+      | 
+In file included from /home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/vector:66,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:6,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h: In static member function 'static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator)':
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h:91: note: '-Wmisleading-indentation' is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+   91 |               for (; __first != __last; ++__first, (void)++__cur)
+      | 
+/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux/usr/include/c++/11.2.0/bits/stl_uninitialized.h:91: note: adding '-flarge-source-files' will allow for more column-tracking support, at the expense of compilation time and memory
+In file included from /home/Xilinx/Vitis/2022.1/aietools/include/adf/window/types.h:35,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/types.h:13,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf/new_frontend/adf.h:11,
+                 from /home/Xilinx/Vitis/2022.1/aietools/include/adf.h:14,
+                 from ../src/graph.h:1,
+                 from ../src/host_xrt.cpp:11:
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/complexint.h: In function 'int as_int(cuint16_t)':
+/home/Xilinx/Vitis/2022.1/aietools/include/adf/window/complexint.h:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   83 |   return *(int *)&v;
+      | 
+../src/host_xrt.cpp: In function 'int main(int, char**)':
+../src/host_xrt.cpp:124: warning: variable 'rval' set but not used [-Wunused-but-set-variable]
+  124 |          int rval = xrtRunSetArg(mm2s_rhdl, 0, in_bohdl0);
+      | 
+../src/host_xrt.cpp:161: warning: unused variable 'state_mm2s' [-Wunused-variable]
+  161 |          auto state_mm2s = xrtRunWait(mm2s_rhdl);
+      | 
+../src/host_xrt.cpp:164: warning: unused variable 'state_s2mm' [-Wunused-variable]
+  164 |          auto state_s2mm = xrtRunWait(s2mm_rhdl);
+      | 
+aarch64-linux-gnu-g++ -o "main" src/aie_control_xrt.o src/host_xrt.o -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -lxilinxopencl -lgcc -lxrt_core -lxrt_coreutil -ladf_api_xrt -lxaiengine -lpthread -lrt -ldl -lcrypt -lstdc++ -L/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux/usr/lib/ -L"/opt/xilinx/xrt/lib" -L"/home/Xilinx/Vitis/2022.1/aietools/lib/aarch64.o" --sysroot=/home/atzomaka/xilinx-versal-common-v2022.1//sysroots/cortexa72-cortexa53-xilinx-linux
+
+01:13:32 Build Finished (took 30s.785ms)
+

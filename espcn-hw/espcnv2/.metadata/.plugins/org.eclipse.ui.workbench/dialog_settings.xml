@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/atzomaka/Downloads"/>
+			<item value="/home/atzomaka/VitisProjects/espcnv2/espcnv2/Hardware/Work/ps/c_rts"/>
+			<item value="/home/atzomaka/VitisProjects/espcnv2/espcnv2/src"/>
+			<item value="/home/atzomaka/VitisProjects/espcn/main/src"/>
+			<item value="/home/atzomaka/VitisProjects/espcn/pl_kernels/src"/>
+			<item value="/home/atzomaka/VitisProjects/espcn/espcn/data"/>
+			<item value="/home/atzomaka/VitisProjects/espcn/espcn/src"/>
+		</list>
+	</section>
+</section>

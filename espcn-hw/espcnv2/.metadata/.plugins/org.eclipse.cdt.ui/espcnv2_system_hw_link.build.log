@@ -1,0 +1,6 @@
+01:13:34 **** Incremental Build of configuration Hardware for project espcnv2_system_hw_link ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:13:34 Build Finished (took 558ms)
+

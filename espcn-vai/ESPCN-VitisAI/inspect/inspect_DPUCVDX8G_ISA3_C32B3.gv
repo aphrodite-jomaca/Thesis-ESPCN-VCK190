@@ -1,0 +1,36 @@
+digraph ESPCN {
+	input_0 [label="type:input
+name:ESPCN::input_0
+assigned device:dpu
+out shape:[(1, 16, 16, 1)]" color=blue]
+	"ESPCN/Conv2d[conv1]/168" [label="type:conv2d
+name:ESPCN::ESPCN/Conv2d[conv1]/168
+assigned device:dpu
+out shape:[(1, 16, 16, 64)]" color=blue]
+	"ESPCN/Tanh[tanh]/input.3" [label="type:tanh
+name:ESPCN::ESPCN/Tanh[tanh]/input.3
+assigned device:cpu
+out shape:[(1, 16, 16, 64)]" color=red]
+	"ESPCN/Conv2d[conv2]/188" [label="type:conv2d
+name:ESPCN::ESPCN/Conv2d[conv2]/188
+assigned device:dpu
+out shape:[(1, 16, 16, 32)]" color=blue]
+	"ESPCN/Tanh[tanh]/input" [label="type:tanh
+name:ESPCN::ESPCN/Tanh[tanh]/input
+assigned device:cpu
+out shape:[(1, 16, 16, 32)]" color=red]
+	"ESPCN/Conv2d[conv3]/208" [label="type:conv2d
+name:ESPCN::ESPCN/Conv2d[conv3]/208
+assigned device:dpu
+out shape:[(1, 16, 16, 4)]" color=blue]
+	"ESPCN/PixelShuffle[pixel_shuffle]/210" [label="type:pixel_shuffle
+name:ESPCN::ESPCN/PixelShuffle[pixel_shuffle]/210
+assigned device:dpu
+out shape:[(1, 32, 32, 1)]" color=blue]
+	input_0 -> "ESPCN/Conv2d[conv1]/168"
+	"ESPCN/Conv2d[conv1]/168" -> "ESPCN/Tanh[tanh]/input.3"
+	"ESPCN/Tanh[tanh]/input.3" -> "ESPCN/Conv2d[conv2]/188"
+	"ESPCN/Conv2d[conv2]/188" -> "ESPCN/Tanh[tanh]/input"
+	"ESPCN/Tanh[tanh]/input" -> "ESPCN/Conv2d[conv3]/208"
+	"ESPCN/Conv2d[conv3]/208" -> "ESPCN/PixelShuffle[pixel_shuffle]/210"
+}

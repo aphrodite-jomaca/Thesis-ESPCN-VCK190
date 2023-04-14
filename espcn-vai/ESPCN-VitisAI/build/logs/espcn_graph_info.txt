@@ -1,0 +1,8 @@
+"files_md5sum" = {
+	"/workspace/./build/quant_model/Net_int.xmodel" = 7f42965dee545d74f4fdfda496c6e371
+}
+"libs_info" = {
+	"xcompiler.2.5.0" = 54ab96213ea1331b60d985035eb836d931e0afea
+	"xcompiler.2.5.0 : target-factory.2.5.0" = 9e04a0e4c5f6c6252d7d269813cdb70a67b79b16
+	"xcompiler.2.5.0 : xir.2.5.0" = 7387c9cc7f9ad438b09006f11854ac7bab176a86
+}

@@ -1,0 +1,6 @@
+01:13:33 **** Incremental Build of configuration Hardware for project pl_kernels ****
+make -j48 all 
+make: Nothing to be done for 'all'.
+
+01:13:34 Build Finished (took 570ms)
+

@@ -1,0 +1,290 @@
+12:27:33 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+12:27:34 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+12:27:35 INFO  : Registering command handlers for Vitis TCF services
+12:27:36 INFO  : Platform repository initialization has completed.
+12:27:37 INFO  : XSCT server has started successfully.
+12:27:37 INFO  : Successfully done setting XSCT server connection channel  
+12:27:38 INFO  : plnx-install-location is set to ''
+12:27:38 INFO  : Successfully done setting workspace for the tool. 
+12:27:38 INFO  : Successfully done query RDI_DATADIR 
+12:28:18 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+12:28:18 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+12:56:07 INFO  : updated graph file
+12:56:31 INFO  : Added kernel '[activation - pl_kernels/src/activation.cpp]' in binary container 'binary_container_1' of project 'espcnv2_system_hw_link'
+12:56:34 INFO  : Added kernel '[activation2 - pl_kernels/src/activation2.cpp]' in binary container 'binary_container_1' of project 'espcnv2_system_hw_link'
+12:56:46 INFO  : Added kernel '[s2mm - pl_kernels/src/s2mm.cpp]' in binary container 'binary_container_1' of project 'espcnv2_system_hw_link'
+12:56:49 INFO  : Added kernel '[pixelshuffle - pl_kernels/src/pixelshuffle.cpp]' in binary container 'binary_container_1' of project 'espcnv2_system_hw_link'
+12:56:56 INFO  : Added kernel '[mm2s - pl_kernels/src/mm2s.cpp]' in binary container 'binary_container_1' of project 'espcnv2_system_hw_link'
+13:32:34 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+14:28:56 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+15:04:06 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+16:53:39 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+17:50:22 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+19:12:32 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+11:00:35 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+11:00:37 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+11:00:40 INFO  : Registering command handlers for Vitis TCF services
+11:00:40 INFO  : XSCT server has started successfully.
+11:00:40 INFO  : Successfully done setting XSCT server connection channel  
+11:00:40 INFO  : plnx-install-location is set to ''
+11:00:40 INFO  : Successfully done setting workspace for the tool. 
+11:00:40 INFO  : Successfully done query RDI_DATADIR 
+11:00:40 INFO  : Platform repository initialization has completed.
+11:17:12 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+13:53:43 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+14:20:37 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check --profile'
+15:08:57 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check --profile=(19,2)'
+16:12:47 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check --profile=(6,1)(19,2)'
+16:36:10 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check --profile=(6,1)(19,2)'
+16:48:37 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+17:21:09 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+18:18:17 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+18:49:02 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+18:49:02 INFO  : Build configuration of 'espcnv2' is updated to 'Hardware'
+18:49:02 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+18:49:02 INFO  : Build configuration of 'main' is updated to 'Hardware'
+10:19:55 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+10:19:57 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+10:20:00 INFO  : Registering command handlers for Vitis TCF services
+10:20:01 INFO  : Platform repository initialization has completed.
+10:20:01 INFO  : XSCT server has started successfully.
+10:20:01 INFO  : plnx-install-location is set to ''
+10:20:02 INFO  : Successfully done setting XSCT server connection channel  
+10:20:02 INFO  : Successfully done query RDI_DATADIR 
+10:20:02 INFO  : Successfully done setting workspace for the tool. 
+19:11:48 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+19:11:48 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+19:11:48 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+19:11:48 INFO  : Build configuration of 'pl_kernels' is updated to 'Emulation-HW'
+19:11:48 INFO  : Build configuration of 'main' is updated to 'Emulation-HW'
+19:12:26 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --profile'
+10:40:45 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+10:40:47 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+10:40:49 INFO  : Platform repository initialization has completed.
+10:40:50 INFO  : XSCT server has started successfully.
+10:40:50 INFO  : Successfully done setting XSCT server connection channel  
+10:40:50 INFO  : plnx-install-location is set to ''
+10:40:50 INFO  : Successfully done setting workspace for the tool. 
+10:40:50 INFO  : Successfully done query RDI_DATADIR 
+10:40:51 INFO  : Registering command handlers for Vitis TCF services
+11:29:55 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+11:29:55 INFO  : Build configuration of 'espcnv2' is updated to 'Hardware'
+11:29:55 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+11:29:55 INFO  : Build configuration of 'main' is updated to 'Hardware'
+11:03:06 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+11:03:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+11:03:11 INFO  : XSCT server has started successfully.
+11:03:11 INFO  : Successfully done setting XSCT server connection channel  
+11:03:12 INFO  : plnx-install-location is set to ''
+11:03:12 INFO  : Successfully done setting workspace for the tool. 
+11:03:12 INFO  : Successfully done query RDI_DATADIR 
+11:03:12 INFO  : Registering command handlers for Vitis TCF services
+11:03:12 INFO  : Platform repository initialization has completed.
+19:54:48 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+19:54:50 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+19:54:52 INFO  : Registering command handlers for Vitis TCF services
+19:54:53 INFO  : XSCT server has started successfully.
+19:54:53 INFO  : Successfully done setting XSCT server connection channel  
+19:54:53 INFO  : plnx-install-location is set to ''
+19:54:53 INFO  : Successfully done setting workspace for the tool. 
+19:54:53 INFO  : Successfully done query RDI_DATADIR 
+19:54:53 INFO  : Platform repository initialization has completed.
+12:33:28 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+12:33:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+12:33:33 INFO  : Registering command handlers for Vitis TCF services
+12:33:33 INFO  : XSCT server has started successfully.
+12:33:33 INFO  : Successfully done setting XSCT server connection channel  
+12:33:33 INFO  : plnx-install-location is set to ''
+12:33:33 INFO  : Successfully done setting workspace for the tool. 
+12:33:33 INFO  : Successfully done query RDI_DATADIR 
+12:33:33 INFO  : Platform repository initialization has completed.
+15:58:33 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+15:58:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+15:58:38 INFO  : Registering command handlers for Vitis TCF services
+15:58:38 INFO  : XSCT server has started successfully.
+15:58:38 INFO  : plnx-install-location is set to ''
+15:58:38 INFO  : Successfully done setting XSCT server connection channel  
+15:58:38 INFO  : Successfully done query RDI_DATADIR 
+15:58:38 INFO  : Successfully done setting workspace for the tool. 
+15:58:38 INFO  : Platform repository initialization has completed.
+16:10:51 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+16:10:51 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+16:10:51 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+16:10:51 INFO  : Build configuration of 'pl_kernels' is updated to 'Emulation-HW'
+16:10:51 INFO  : Build configuration of 'main' is updated to 'Emulation-HW'
+16:42:13 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+17:37:05 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+17:45:24 INFO  : Build configuration of 'espcnv2_system' is updated to 'Hardware'
+17:45:24 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+17:45:24 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+17:45:24 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+17:45:24 INFO  : Build configuration of 'main' is updated to 'Hardware'
+20:15:32 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+20:15:34 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+20:15:37 INFO  : XSCT server has started successfully.
+20:15:37 INFO  : Successfully done setting XSCT server connection channel  
+20:15:37 INFO  : plnx-install-location is set to ''
+20:15:37 INFO  : Successfully done setting workspace for the tool. 
+20:15:37 INFO  : Successfully done query RDI_DATADIR 
+20:15:38 INFO  : Registering command handlers for Vitis TCF services
+20:15:38 INFO  : Platform repository initialization has completed.
+10:37:28 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+10:37:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+10:37:33 INFO  : Registering command handlers for Vitis TCF services
+10:37:33 INFO  : XSCT server has started successfully.
+10:37:33 INFO  : plnx-install-location is set to ''
+10:37:33 INFO  : Successfully done setting XSCT server connection channel  
+10:37:33 INFO  : Successfully done query RDI_DATADIR 
+10:37:33 INFO  : Successfully done setting workspace for the tool. 
+10:37:33 INFO  : Platform repository initialization has completed.
+13:01:33 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+13:01:33 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+13:01:33 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+13:01:33 INFO  : Build configuration of 'pl_kernels' is updated to 'Emulation-HW'
+13:01:33 INFO  : Build configuration of 'main' is updated to 'Emulation-HW'
+13:38:14 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --profile'
+14:02:28 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+14:35:49 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --profile'
+16:35:58 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+16:35:58 INFO  : Build configuration of 'espcnv2' is updated to 'Hardware'
+16:35:58 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+16:35:58 INFO  : Build configuration of 'main' is updated to 'Hardware'
+09:45:49 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+09:45:51 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+09:45:53 INFO  : Registering command handlers for Vitis TCF services
+09:45:54 INFO  : Platform repository initialization has completed.
+09:45:55 INFO  : XSCT server has started successfully.
+09:45:55 INFO  : Successfully done setting XSCT server connection channel  
+09:45:55 INFO  : plnx-install-location is set to ''
+09:45:55 INFO  : Successfully done query RDI_DATADIR 
+09:45:55 INFO  : Successfully done setting workspace for the tool. 
+09:29:04 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+09:29:11 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+09:29:17 INFO  : XSCT server has started successfully.
+09:29:17 INFO  : Successfully done setting XSCT server connection channel  
+09:29:17 INFO  : plnx-install-location is set to ''
+09:29:17 INFO  : Successfully done setting workspace for the tool. 
+09:29:19 INFO  : Successfully done query RDI_DATADIR 
+09:29:20 INFO  : Registering command handlers for Vitis TCF services
+09:29:21 INFO  : Platform repository initialization has completed.
+12:57:56 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+12:58:20 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+12:58:45 INFO  : XSCT server has started successfully.
+12:58:45 INFO  : Successfully done setting XSCT server connection channel  
+12:58:45 INFO  : plnx-install-location is set to ''
+12:58:45 INFO  : Successfully done setting workspace for the tool. 
+12:58:48 INFO  : Registering command handlers for Vitis TCF services
+12:59:17 INFO  : Platform repository initialization has completed.
+13:00:03 INFO  : Successfully done query RDI_DATADIR 
+08:44:56 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+08:44:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+08:45:01 INFO  : Registering command handlers for Vitis TCF services
+08:45:01 INFO  : XSCT server has started successfully.
+08:45:01 INFO  : Platform repository initialization has completed.
+08:45:02 INFO  : Successfully done setting XSCT server connection channel  
+08:45:02 INFO  : plnx-install-location is set to ''
+08:45:02 INFO  : Successfully done query RDI_DATADIR 
+08:45:02 INFO  : Successfully done setting workspace for the tool. 
+11:38:48 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+11:38:48 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+11:38:49 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+11:38:49 INFO  : Build configuration of 'pl_kernels' is updated to 'Emulation-HW'
+11:38:49 INFO  : Build configuration of 'main' is updated to 'Emulation-HW'
+12:38:11 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --dump-vcd=foo --profile'
+14:58:08 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+14:58:09 INFO  : Build configuration of 'espcnv2' is updated to 'Hardware'
+14:58:09 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+14:58:09 INFO  : Build configuration of 'main' is updated to 'Hardware'
+16:10:47 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+16:10:49 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+16:10:52 INFO  : XSCT server has started successfully.
+16:10:52 INFO  : Successfully done setting XSCT server connection channel  
+16:10:52 INFO  : plnx-install-location is set to ''
+16:10:52 INFO  : Successfully done setting workspace for the tool. 
+16:10:53 INFO  : Successfully done query RDI_DATADIR 
+16:10:54 INFO  : Registering command handlers for Vitis TCF services
+16:10:54 INFO  : Platform repository initialization has completed.
+16:24:31 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+16:24:32 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+16:24:35 INFO  : XSCT server has started successfully.
+16:24:35 INFO  : plnx-install-location is set to ''
+16:24:35 INFO  : Successfully done setting XSCT server connection channel  
+16:24:35 INFO  : Successfully done setting workspace for the tool. 
+16:24:37 INFO  : Successfully done query RDI_DATADIR 
+16:24:37 INFO  : Registering command handlers for Vitis TCF services
+16:24:38 INFO  : Platform repository initialization has completed.
+22:09:38 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+22:09:39 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+22:09:42 INFO  : XSCT server has started successfully.
+22:09:42 INFO  : plnx-install-location is set to ''
+22:09:42 INFO  : Successfully done setting XSCT server connection channel  
+22:09:42 INFO  : Successfully done setting workspace for the tool. 
+22:09:48 INFO  : Successfully done query RDI_DATADIR 
+22:09:48 INFO  : Registering command handlers for Vitis TCF services
+22:09:49 INFO  : Platform repository initialization has completed.
+08:25:39 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+08:25:41 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+08:25:44 INFO  : Registering command handlers for Vitis TCF services
+08:25:44 INFO  : XSCT server has started successfully.
+08:25:44 INFO  : Successfully done setting XSCT server connection channel  
+08:25:44 INFO  : plnx-install-location is set to ''
+08:25:44 INFO  : Successfully done query RDI_DATADIR 
+08:25:44 INFO  : Successfully done setting workspace for the tool. 
+08:25:44 INFO  : Platform repository initialization has completed.
+09:24:11 INFO  : Build configuration of 'espcnv2_system' is updated to 'Emulation-HW'
+09:24:11 INFO  : Build configuration of system project is automatically updated to 'Emulation-HW'.
+09:24:11 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Emulation-HW'
+09:24:11 INFO  : Build configuration of 'pl_kernels' is updated to 'Emulation-HW'
+09:24:11 INFO  : Build configuration of 'main' is updated to 'Emulation-HW'
+10:01:13 INFO  : Launching aiesimulator with command 'aiesimulator --pkg-dir=./Work --i=.. --enable-memory-check'
+10:35:16 ERROR : aiesimulator simulator is cancelled, aborting simulator !
+10:35:23 INFO  : Build configuration of 'espcnv2_system' is updated to 'Hardware'
+10:35:23 INFO  : Build configuration of system project is automatically updated to 'Hardware'.
+10:35:23 INFO  : Build configuration of 'espcnv2_system_hw_link' is updated to 'Hardware'
+10:35:23 INFO  : Build configuration of 'pl_kernels' is updated to 'Hardware'
+10:35:23 INFO  : Build configuration of 'main' is updated to 'Hardware'
+15:19:40 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+15:19:42 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+15:19:45 INFO  : Registering command handlers for Vitis TCF services
+15:19:45 INFO  : XSCT server has started successfully.
+15:19:45 INFO  : plnx-install-location is set to ''
+15:19:45 INFO  : Successfully done setting XSCT server connection channel  
+15:19:45 INFO  : Successfully done query RDI_DATADIR 
+15:19:45 INFO  : Successfully done setting workspace for the tool. 
+15:19:45 INFO  : Platform repository initialization has completed.
+09:47:33 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+09:47:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+09:47:37 INFO  : Registering command handlers for Vitis TCF services
+09:47:38 INFO  : XSCT server has started successfully.
+09:47:38 INFO  : plnx-install-location is set to ''
+09:47:38 INFO  : Successfully done setting XSCT server connection channel  
+09:47:38 INFO  : Successfully done query RDI_DATADIR 
+09:47:38 INFO  : Successfully done setting workspace for the tool. 
+09:47:38 INFO  : Platform repository initialization has completed.
+14:19:21 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+14:19:43 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+14:20:17 INFO  : XSCT server has started successfully.
+14:20:17 INFO  : plnx-install-location is set to ''
+14:20:17 INFO  : Successfully done setting XSCT server connection channel  
+14:20:18 INFO  : Registering command handlers for Vitis TCF services
+14:20:44 INFO  : Platform repository initialization has completed.
+14:20:52 INFO  : Successfully done setting workspace for the tool. 
+14:20:52 INFO  : Successfully done query RDI_DATADIR 
+08:29:21 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+08:29:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+08:29:25 INFO  : Registering command handlers for Vitis TCF services
+08:29:27 INFO  : Platform repository initialization has completed.
+08:29:28 INFO  : XSCT server has started successfully.
+08:29:28 INFO  : plnx-install-location is set to ''
+08:29:28 INFO  : Successfully done setting XSCT server connection channel  
+08:29:28 INFO  : Successfully done query RDI_DATADIR 
+08:29:28 INFO  : Successfully done setting workspace for the tool. 
+20:18:00 DEBUG : Logs will be stored at '/home/atzomaka/VitisProjects/espcnv2/IDE.log'.
+20:18:01 INFO  : Launching XSCT server: xsct -n  -interactive /home/atzomaka/VitisProjects/espcnv2/temp_xsdb_launch_script.tcl
+20:18:03 INFO  : Platform repository initialization has completed.
+20:18:04 INFO  : XSCT server has started successfully.
+20:18:04 INFO  : plnx-install-location is set to ''
+20:18:04 INFO  : Successfully done setting XSCT server connection channel  
+20:18:04 INFO  : Successfully done setting workspace for the tool. 
+20:18:05 INFO  : Successfully done query RDI_DATADIR 
+20:18:06 INFO  : Registering command handlers for Vitis TCF services

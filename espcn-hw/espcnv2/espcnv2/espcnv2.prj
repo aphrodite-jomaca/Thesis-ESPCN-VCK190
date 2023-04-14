@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aieproject:AIEProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aieproject="http://www.xilinx.com/aieproject" name="espcnv2" location="/home/atzomaka/VitisProjects/espcnv2/espcnv2" platform="/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm" platformUID="xilinx.com:xd:xilinx_vck190_base_202210_1:202210.1(custom)" systemProject="espcnv2_system" sysConfig="xilinx_vck190_base_202210_1" runtime="C/C++" cpu="aiengine" cpuInstance="ai_engine" os="aie_runtime">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.aie.config.sw_emu.103555862" dirty="true">
+    <configBuildOptions xsi:type="aieproject:AIEOptions"/>
+  </configuration>
+  <configuration name="Emulation-AIE" id="com.xilinx.ide.aie.config.hw_emu.1632709338" dirty="true">
+    <configBuildOptions xsi:type="aieproject:AIEOptions" target="hw_emu"/>
+    <lastBuildOptions xsi:type="aieproject:AIEOptions" target="hw_emu"/>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.aie.config.hw.1976166295">
+    <configBuildOptions xsi:type="aieproject:AIEOptions" target="hw"/>
+    <lastBuildOptions xsi:type="aieproject:AIEOptions" target="hw"/>
+  </configuration>
+</aieproject:AIEProject>

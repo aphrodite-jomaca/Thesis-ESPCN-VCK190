@@ -1,0 +1,17 @@
+root
+    subgraph_Net__input_0 [device=USER]
+    subgraph_Net__Net_Conv2d_conv1__168 [device=DPU,fingerprint=0x603000b16011861,DPU=DPUCVDX8G_ISA3_C32B6,I=[xir_tensor{Net__input_0_fix:(1,16,16,1), fixpos=7 # of elements= 256}],O=[xir_tensor{Net__Net_Conv2d_conv1__168_fix:(1,16,16,64), fixpos=6 # of elements= 16384}]]
+        subgraph_Net__input_0_upload_0
+        subgraph_Net__Net_Conv2d_conv1__168
+        subgraph_Net__Net_Conv2d_conv1__168_download_0
+    subgraph_Net__Net_Conv2d_conv1__168_fix_Net__Net_Tanh_tanh__input_3 [device=CPU]
+    subgraph_Net__Net_Conv2d_conv3__188 [device=DPU,fingerprint=0x603000b16011861,DPU=DPUCVDX8G_ISA3_C32B6,I=[xir_tensor{Net__Net_Tanh_tanh__input_3_fix:(1,16,16,64), fixpos=7 # of elements= 16384}],O=[xir_tensor{Net__Net_Conv2d_conv3__188_fix:(1,16,16,32), fixpos=5 # of elements= 8192}]]
+        subgraph_Net__Net_Tanh_tanh__input_3_fix_upload_0
+        subgraph_Net__Net_Conv2d_conv3__188
+        subgraph_Net__Net_Conv2d_conv3__188_download_0
+    subgraph_Net__Net_Conv2d_conv3__188_fix_Net__Net_Tanh_tanh__input [device=CPU]
+    subgraph_Net__Net_Conv2d_conv4__208 [device=DPU,fingerprint=0x603000b16011861,DPU=DPUCVDX8G_ISA3_C32B6,I=[xir_tensor{Net__Net_Tanh_tanh__input_fix:(1,16,16,32), fixpos=7 # of elements= 8192}],O=[xir_tensor{Net__Net_PixelShuffle_pixel_shuffle__210_fix:(1,32,32,1), fixpos=7 # of elements= 1024}]]
+        subgraph_Net__Net_Tanh_tanh__input_fix_upload_0
+        subgraph_Net__Net_Conv2d_conv4__208
+        subgraph_Net__Net_PixelShuffle_pixel_shuffle__210_convert_to_tile_download_0
+    subgraph_Net__Net_PixelShuffle_pixel_shuffle__210_fix_ [device=CPU]

@@ -1,0 +1,171 @@
+01:13:35 **** Incremental Build of configuration Hardware for project espcnv2_system ****
+make all 
+Running Package Step for the System Project.
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package.cfg ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package.cfg   ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+Option Map File Used: '/home/Xilinx/Vitis/2022.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/reports/package
+	Log files: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/logs/package
+Running Dispatch Server on port: 34202
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary, at Sun Oct  2 01:13:48 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sun Oct  2 01:13:48 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package.build/reports/package/v++_package_binary_container_1_guidance.html', at Sun Oct  2 01:13:51 2022
+INFO: [v++ 60-895]   Target platform: /home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/hw/hw.xsa'
+INFO: [v++ 60-2256] Packaging for hardware
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+WARNING: [v++ 82-3848] The AIE/PL interface does not match in the Xilinx Support Archive (XSA): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa and AIE archive (libadf.a): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2/Hardware/libadf.a
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-3881] device architecture set to versal
+INFO: [v++ 82-1012] deleting existing /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+INFO: [v++ 82-1022] generating /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+INFO: [v++ 82-3884] generating pdi for arch versal with bif /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/boot_image.bif
+
+
+****** Xilinx Bootgen v2022.1
+  **** Build date : Apr 18 2022-16:09:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+[INFO]   : Bootimage generated successfully
+
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-1018] deleting existing sd_card directory
+INFO: [v++ 82-1011] creating sd_card directory
+INFO: [v++ 82-1083] Deleting existing sd_card.img
+INFO: [v++ 82-3528] mkfsimage command run: /home/Xilinx/Vitis/2022.1/scripts/vitis/util/mkfsImage.sh -s /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/sd_card/ -o /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package/sd_card.img -m 1 -e /home/atzomaka/xilinx-versal-common-v2022.1/rootfs.ext4
+SDCARD_SIZE_KB: 75855
+FAT_SDCARD_SIZE: 1048576
+FATSIZE:1024
+fat_start:63
+fat_end:2096639
+fat_sector:2096577
+ext4_start:0
+ext4_sector:3485348
+EXT4SIZE:2048
+TOTALSIZE:3072
+dummy_ext4_sector:708956
+sd_card_fat_start:2048
+sd_card_ext4_start:2000896
+dummy_ext4_start:5486244
+2096577+0 records in
+2096577+0 records out
+1073447424 bytes (1.1 GB, 1.0 GiB) copied, 4.65785 s, 230 MB/s
+3485348+0 records in
+3485348+0 records out
+1784498176 bytes (1.8 GB, 1.7 GiB) copied, 7.57588 s, 236 MB/s
+708956+0 records in
+708956+0 records out
+362985472 bytes (363 MB, 346 MiB) copied, 1.51868 s, 239 MB/s
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 16s
+INFO: [v++ 60-1653] Closing dispatch client.
+Running Package Step for the System Project with AIE configured to not stop for Debug.
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package_aie_debug.cfg ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+/home/Xilinx/Vitis/2022.1/bin/v++ --package --config package_aie_debug.cfg   ../../espcnv2/Hardware/libadf.a ../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa -o binary_container_1.xclbin
+Option Map File Used: '/home/Xilinx/Vitis/2022.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2022.1 (64-bit)
+  **** SW Build 3524075 on 2022-04-13-17:42:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ package can be found at:
+	Reports: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/reports/package
+	Log files: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/logs/package
+Running Dispatch Server on port: 45194
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary, at Sun Oct  2 01:17:07 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Sun Oct  2 01:17:07 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug.build/reports/package/v++_package_binary_container_1_guidance.html', at Sun Oct  2 01:17:09 2022
+INFO: [v++ 60-895]   Target platform: /home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/hw/hw.xsa'
+INFO: [v++ 60-2256] Packaging for hardware
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+WARNING: [v++ 82-3848] The AIE/PL interface does not match in the Xilinx Support Archive (XSA): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2_system_hw_link/Hardware/binary_container_1.xsa and AIE archive (libadf.a): /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/../../espcnv2/Hardware/libadf.a
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-3881] device architecture set to versal
+INFO: [v++ 82-1012] deleting existing /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+INFO: [v++ 82-1022] generating /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+INFO: [v++ 82-3884] generating pdi for arch versal with bif /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/boot_image.bif
+
+
+****** Xilinx Bootgen v2022.1
+  **** Build date : Apr 18 2022-16:09:43
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+[INFO]   : Bootimage generated successfully
+
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 82-1018] deleting existing sd_card directory
+INFO: [v++ 82-1011] creating sd_card directory
+INFO: [v++ 82-1083] Deleting existing sd_card.img
+INFO: [v++ 82-3528] mkfsimage command run: /home/Xilinx/Vitis/2022.1/scripts/vitis/util/mkfsImage.sh -s /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/sd_card/ -o /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/package_aie_debug/sd_card.img -m 1 -e /home/atzomaka/xilinx-versal-common-v2022.1/rootfs.ext4
+SDCARD_SIZE_KB: 75861
+FAT_SDCARD_SIZE: 1048576
+FATSIZE:1024
+fat_start:63
+fat_end:2096639
+fat_sector:2096577
+ext4_start:0
+ext4_sector:3485348
+EXT4SIZE:2048
+TOTALSIZE:3072
+dummy_ext4_sector:708956
+sd_card_fat_start:2048
+sd_card_ext4_start:2000896
+dummy_ext4_start:5486244
+2096577+0 records in
+2096577+0 records out
+1073447424 bytes (1.1 GB, 1.0 GiB) copied, 4.69011 s, 229 MB/s
+3485348+0 records in
+3485348+0 records out
+1784498176 bytes (1.8 GB, 1.7 GiB) copied, 7.60354 s, 235 MB/s
+708956+0 records in
+708956+0 records out
+362985472 bytes (363 MB, 346 MiB) copied, 1.56709 s, 232 MB/s
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+/usr/bin/python3: symbol lookup error: /usr/bin/python3: undefined symbol: XML_SetHashSalt
+INFO: [v++ 60-2460] Successfully copied a temporary xclbin to the output xclbin: /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/atzomaka/VitisProjects/espcnv2/espcnv2_system/Hardware/binary_container_1.xclbin.package_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 58s
+INFO: [v++ 60-1653] Closing dispatch client.
+
+01:20:55 Build Finished (took 7m:20s.334ms)
+

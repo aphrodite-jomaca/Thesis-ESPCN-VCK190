@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="espcnv2_system" platform="/home/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm" platformUID="xilinx.com:xd:xilinx_vck190_base_202210_1:202210.1(custom)" sysConfig="xilinx_vck190_base_202210_1" runtime="C/C++" rootFSLocation="/home/atzomaka/xilinx-versal-common-v2022.1/rootfs.ext4" linuxImage="/home/atzomaka/xilinx-versal-common-v2022.1/Image" sysroot="/home/atzomaka/xilinx-versal-common-v2022.1/sysroots/cortexa72-cortexa53-xilinx-linux">
+  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.105180527">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="espcnv2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="espcnv2" domainName="aiengine" domainPrettyName="aiengine" appBuildConfig="Emulation-SW"/>
+      <applications name="pl_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="main" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-SW"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="2"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.1040552296">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="espcnv2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="espcnv2" domainName="aiengine" domainPrettyName="aiengine" appBuildConfig="Emulation-AIE"/>
+      <applications name="pl_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="main" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-HW"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="2"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="espcnv2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="espcnv2" domainName="aiengine" domainPrettyName="aiengine" appBuildConfig="Emulation-AIE"/>
+      <applications name="pl_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="main" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-HW"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="2"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.340522653">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="espcnv2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="espcnv2" domainName="aiengine" domainPrettyName="aiengine" appBuildConfig="Hardware"/>
+      <applications name="pl_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="main" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Hardware"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="2"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="espcnv2_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="espcnv2" domainName="aiengine" domainPrettyName="aiengine" appBuildConfig="Hardware"/>
+      <applications name="pl_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="main" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Hardware"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="2"/>
+    </lastBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

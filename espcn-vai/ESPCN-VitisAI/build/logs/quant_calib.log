@@ -1,0 +1,76 @@
+No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+
+[0;32m[VAIQ_NOTE]: Loading NNDCT kernels...[0m
+
+-----------------------------------------
+PyTorch version :  1.10.1
+3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:53) 
+[GCC 9.4.0]
+-----------------------------------------
+ Command line options:
+--build_dir       :  ./build
+--upscale_factor  :  2
+--quant_mode      :  calib
+--inspector       :  True
+--batchsize       :  1
+-----------------------------------------
+No CUDA devices available..selecting CPU
+
+[0;32m[VAIQ_NOTE]: =>Inspector is initialized successfully with target:[0m
+name: DPUCVDX8G_ISA3_C32B6
+type: DPUCVDX8G
+isa_version: 3
+
+[0;32m[VAIQ_NOTE]: =>Start to inspect model...[0m
+
+[0;32m[VAIQ_NOTE]: =>Quant Module is in 'cpu'.[0m
+
+[0;32m[VAIQ_NOTE]: =>Parsing Net...[0m
+
+[0;32m[VAIQ_NOTE]: Start to trace model...[0m
+
+[0;32m[VAIQ_NOTE]: Finish tracing.[0m
+
+[0;32m[VAIQ_NOTE]: Processing ops...[0m
+                                                  | 0/8 [00:00<?, ?it/s]                                                  | 0/8 [00:00<?, ?it/s, OpInfo: name = input_0, type = Param]██████▎                                           | 1/8 [00:00<00:00, 4755.45it/s, OpInfo: name = Net/Conv2d[conv1]/168, type = _convolution]████████████▌                                     | 2/8 [00:00<00:00, 1521.88it/s, OpInfo: name = Net/Tanh[tanh]/input.3, type = tanh]       ██████████████████▊                               | 3/8 [00:00<00:00, 1573.06it/s, OpInfo: name = Net/Conv2d[conv3]/188, type = _convolution]█████████████████████████                         | 4/8 [00:00<00:00, 1543.87it/s, OpInfo: name = Net/Tanh[tanh]/input, type = tanh]         ███████████████████████████████▎                  | 5/8 [00:00<00:00, 1723.78it/s, OpInfo: name = Net/Conv2d[conv4]/208, type = _convolution]█████████████████████████████████████▌            | 6/8 [00:00<00:00, 1746.05it/s, OpInfo: name = Net/PixelShuffle[pixel_shuffle]/210, type = pixel_shuffle]███████████████████████████████████████████▊      | 7/8 [00:00<00:00, 1726.46it/s, OpInfo: name = return_0, type = Return]                                  ██████████████████████████████████████████████████| 8/8 [00:00<00:00, 1867.46it/s, OpInfo: name = return_0, type = Return]
+
+[0;32m[VAIQ_NOTE]: =>Doing weights equalization...[0m
+
+[0;32m[VAIQ_NOTE]: =>Quantizable module is generated.(inspect/Net.py)[0m
+
+[0;32m[VAIQ_NOTE]: The operators assigned to the CPU are as follows(see more details in 'inspect/inspect_DPUCVDX8G_ISA3_C32B6.txt'):[0m
+node name                    op Type    hardware constraints
+---------------------------  ---------  -------------------------
+Net::Net/Tanh[tanh]/input.3  tanh       DPU does not support tanh
+Net::Net/Tanh[tanh]/input    tanh       DPU does not support tanh
+
+[0;32m[VAIQ_NOTE]: Dot image is generated.(inspect/inspect_DPUCVDX8G_ISA3_C32B6.png)[0m
+
+[0;32m[VAIQ_NOTE]: =>Finish inspecting.[0m
+
+[0;33m[VAIQ_WARN]: CUDA is not available, change device to CPU[0m
+
+[0;32m[VAIQ_NOTE]: Quant config file is empty, use default quant configuration[0m
+
+[0;32m[VAIQ_NOTE]: Quantization calibration process start up...[0m
+
+[0;32m[VAIQ_NOTE]: =>Quant Module is in 'cpu'.[0m
+
+[0;32m[VAIQ_NOTE]: =>Parsing Net...[0m
+
+[0;32m[VAIQ_NOTE]: Start to trace model...[0m
+
+[0;32m[VAIQ_NOTE]: Finish tracing.[0m
+
+[0;32m[VAIQ_NOTE]: Processing ops...[0m
+                                                  | 0/8 [00:00<?, ?it/s]                                                  | 0/8 [00:00<?, ?it/s, OpInfo: name = input_0, type = Param]██████▎                                           | 1/8 [00:00<00:00, 3869.28it/s, OpInfo: name = Net/Conv2d[conv1]/168, type = _convolution]████████████▌                                     | 2/8 [00:00<00:00, 1853.84it/s, OpInfo: name = Net/Tanh[tanh]/input.3, type = tanh]       ██████████████████▊                               | 3/8 [00:00<00:00, 2014.56it/s, OpInfo: name = Net/Conv2d[conv3]/188, type = _convolution]█████████████████████████                         | 4/8 [00:00<00:00, 1852.20it/s, OpInfo: name = Net/Tanh[tanh]/input, type = tanh]         ███████████████████████████████▎                  | 5/8 [00:00<00:00, 1983.31it/s, OpInfo: name = Net/Conv2d[conv4]/208, type = _convolution]█████████████████████████████████████▌            | 6/8 [00:00<00:00, 1898.73it/s, OpInfo: name = Net/PixelShuffle[pixel_shuffle]/210, type = pixel_shuffle]███████████████████████████████████████████▊      | 7/8 [00:00<00:00, 1938.47it/s, OpInfo: name = return_0, type = Return]                                  ██████████████████████████████████████████████████| 8/8 [00:00<00:00, 2056.91it/s, OpInfo: name = return_0, type = Return]
+
+[0;32m[VAIQ_NOTE]: =>Doing weights equalization...[0m
+
+[0;32m[VAIQ_NOTE]: =>Quantizable module is generated.(./build/quant_model/Net.py)[0m
+
+[0;32m[VAIQ_NOTE]: =>Get module with quantization.[0m
+
+Test set: Avg. PSNR: 27.7148 dB
+
+[0;32m[VAIQ_NOTE]: =>Exporting quant config.(./build/quant_model/quant_info.json)[0m

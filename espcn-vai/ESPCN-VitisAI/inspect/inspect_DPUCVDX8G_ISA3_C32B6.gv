@@ -1,0 +1,36 @@
+digraph Net {
+	input_0 [label="type:input
+name:Net::input_0
+assigned device:dpu
+out shape:[(1, 16, 16, 1)]" color=blue]
+	"Net/Conv2d[conv1]/168" [label="type:conv2d
+name:Net::Net/Conv2d[conv1]/168
+assigned device:dpu
+out shape:[(1, 16, 16, 64)]" color=blue]
+	"Net/Tanh[tanh]/input.3" [label="type:tanh
+name:Net::Net/Tanh[tanh]/input.3
+assigned device:cpu
+out shape:[(1, 16, 16, 64)]" color=red]
+	"Net/Conv2d[conv3]/188" [label="type:conv2d
+name:Net::Net/Conv2d[conv3]/188
+assigned device:dpu
+out shape:[(1, 16, 16, 32)]" color=blue]
+	"Net/Tanh[tanh]/input" [label="type:tanh
+name:Net::Net/Tanh[tanh]/input
+assigned device:cpu
+out shape:[(1, 16, 16, 32)]" color=red]
+	"Net/Conv2d[conv4]/208" [label="type:conv2d
+name:Net::Net/Conv2d[conv4]/208
+assigned device:dpu
+out shape:[(1, 16, 16, 4)]" color=blue]
+	"Net/PixelShuffle[pixel_shuffle]/210" [label="type:pixel_shuffle
+name:Net::Net/PixelShuffle[pixel_shuffle]/210
+assigned device:dpu
+out shape:[(1, 32, 32, 1)]" color=blue]
+	input_0 -> "Net/Conv2d[conv1]/168"
+	"Net/Conv2d[conv1]/168" -> "Net/Tanh[tanh]/input.3"
+	"Net/Tanh[tanh]/input.3" -> "Net/Conv2d[conv3]/188"
+	"Net/Conv2d[conv3]/188" -> "Net/Tanh[tanh]/input"
+	"Net/Tanh[tanh]/input" -> "Net/Conv2d[conv4]/208"
+	"Net/Conv2d[conv4]/208" -> "Net/PixelShuffle[pixel_shuffle]/210"
+}

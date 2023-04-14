@@ -1,0 +1,1066 @@
+
+-----------------------------------------
+PyTorch version :  1.10.1
+3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:53) 
+[GCC 9.4.0]
+-----------------------------------------
+ Command line options:
+--build_dir        :  ./build
+--upscale_factor   :  2
+--trainbatchsize   :  4
+--testbatchsize    :  50
+--learnrate        :  0.001
+--epochs           :  350
+-----------------------------------------
+No CUDA devices available..selecting CPU
+Epoch 1
+
+Test set: Avg. PSNR: 17.8078 dB
+Epoch 2
+
+Test set: Avg. PSNR: 20.1082 dB
+Epoch 3
+
+Test set: Avg. PSNR: 20.5620 dB
+Epoch 4
+
+Test set: Avg. PSNR: 21.3749 dB
+Epoch 5
+
+Test set: Avg. PSNR: 22.2615 dB
+Epoch 6
+
+Test set: Avg. PSNR: 22.5999 dB
+Epoch 7
+
+Test set: Avg. PSNR: 22.9927 dB
+Epoch 8
+
+Test set: Avg. PSNR: 23.2447 dB
+Epoch 9
+
+Test set: Avg. PSNR: 23.4383 dB
+Epoch 10
+
+Test set: Avg. PSNR: 23.7497 dB
+Epoch 11
+
+Test set: Avg. PSNR: 23.9224 dB
+Epoch 12
+
+Test set: Avg. PSNR: 24.0714 dB
+Epoch 13
+
+Test set: Avg. PSNR: 24.1617 dB
+Epoch 14
+
+Test set: Avg. PSNR: 24.2014 dB
+Epoch 15
+
+Test set: Avg. PSNR: 24.3318 dB
+Epoch 16
+
+Test set: Avg. PSNR: 24.4338 dB
+Epoch 17
+
+Test set: Avg. PSNR: 24.4391 dB
+Epoch 18
+
+Test set: Avg. PSNR: 24.4909 dB
+Epoch 19
+
+Test set: Avg. PSNR: 24.6118 dB
+Epoch 20
+
+Test set: Avg. PSNR: 24.6465 dB
+Epoch 21
+
+Test set: Avg. PSNR: 24.6701 dB
+Epoch 22
+
+Test set: Avg. PSNR: 24.6016 dB
+Epoch 23
+
+Test set: Avg. PSNR: 24.6987 dB
+Epoch 24
+
+Test set: Avg. PSNR: 24.7118 dB
+Epoch 25
+
+Test set: Avg. PSNR: 24.7606 dB
+Epoch 26
+
+Test set: Avg. PSNR: 24.7995 dB
+Epoch 27
+
+Test set: Avg. PSNR: 24.8432 dB
+Epoch 28
+
+Test set: Avg. PSNR: 24.8271 dB
+Epoch 29
+
+Test set: Avg. PSNR: 23.6610 dB
+Epoch 30
+
+Test set: Avg. PSNR: 24.8585 dB
+Epoch 31
+
+Test set: Avg. PSNR: 24.9190 dB
+Epoch 32
+
+Test set: Avg. PSNR: 24.3457 dB
+Epoch 33
+
+Test set: Avg. PSNR: 24.7167 dB
+Epoch 34
+
+Test set: Avg. PSNR: 24.9021 dB
+Epoch 35
+
+Test set: Avg. PSNR: 24.1413 dB
+Epoch 36
+
+Test set: Avg. PSNR: 24.6817 dB
+Epoch 37
+
+Test set: Avg. PSNR: 24.9787 dB
+Epoch 38
+
+Test set: Avg. PSNR: 24.8717 dB
+Epoch 39
+
+Test set: Avg. PSNR: 24.9398 dB
+Epoch 40
+
+Test set: Avg. PSNR: 25.0325 dB
+Epoch 41
+
+Test set: Avg. PSNR: 25.0251 dB
+Epoch 42
+
+Test set: Avg. PSNR: 25.0562 dB
+Epoch 43
+
+Test set: Avg. PSNR: 25.0475 dB
+Epoch 44
+
+Test set: Avg. PSNR: 23.5280 dB
+Epoch 45
+
+Test set: Avg. PSNR: 24.9232 dB
+Epoch 46
+
+Test set: Avg. PSNR: 24.4311 dB
+Epoch 47
+
+Test set: Avg. PSNR: 25.0620 dB
+Epoch 48
+
+Test set: Avg. PSNR: 25.0371 dB
+Epoch 49
+
+Test set: Avg. PSNR: 25.0704 dB
+Epoch 50
+
+Test set: Avg. PSNR: 25.0400 dB
+Epoch 51
+
+Test set: Avg. PSNR: 24.5882 dB
+Epoch 52
+
+Test set: Avg. PSNR: 24.9268 dB
+Epoch 53
+
+Test set: Avg. PSNR: 25.0639 dB
+Epoch 54
+
+Test set: Avg. PSNR: 25.0616 dB
+Epoch 55
+
+Test set: Avg. PSNR: 25.0744 dB
+Epoch 56
+
+Test set: Avg. PSNR: 22.6923 dB
+Epoch 57
+
+Test set: Avg. PSNR: 24.4126 dB
+Epoch 58
+
+Test set: Avg. PSNR: 25.0582 dB
+Epoch 59
+
+Test set: Avg. PSNR: 25.1084 dB
+Epoch 60
+
+Test set: Avg. PSNR: 24.6887 dB
+Epoch 61
+
+Test set: Avg. PSNR: 25.1068 dB
+Epoch 62
+
+Test set: Avg. PSNR: 25.0392 dB
+Epoch 63
+
+Test set: Avg. PSNR: 25.1676 dB
+Epoch 64
+
+Test set: Avg. PSNR: 25.1184 dB
+Epoch 65
+
+Test set: Avg. PSNR: 25.1550 dB
+Epoch 66
+
+Test set: Avg. PSNR: 24.1465 dB
+Epoch 67
+
+Test set: Avg. PSNR: 24.8331 dB
+Epoch 68
+
+Test set: Avg. PSNR: 24.9250 dB
+Epoch 69
+
+Test set: Avg. PSNR: 25.0510 dB
+Epoch 70
+
+Test set: Avg. PSNR: 24.8855 dB
+Epoch 71
+
+Test set: Avg. PSNR: 25.1737 dB
+Epoch 72
+
+Test set: Avg. PSNR: 24.9354 dB
+Epoch 73
+
+Test set: Avg. PSNR: 25.1789 dB
+Epoch 74
+
+Test set: Avg. PSNR: 25.0608 dB
+Epoch 75
+
+Test set: Avg. PSNR: 25.1858 dB
+Epoch 76
+
+Test set: Avg. PSNR: 25.1976 dB
+Epoch 77
+
+Test set: Avg. PSNR: 25.1312 dB
+Epoch 78
+
+Test set: Avg. PSNR: 24.5740 dB
+Epoch 79
+
+Test set: Avg. PSNR: 25.0791 dB
+Epoch 80
+
+Test set: Avg. PSNR: 24.9970 dB
+Epoch 81
+
+Test set: Avg. PSNR: 25.1496 dB
+Epoch 82
+
+Test set: Avg. PSNR: 25.2002 dB
+Epoch 83
+
+Test set: Avg. PSNR: 25.1338 dB
+Epoch 84
+
+Test set: Avg. PSNR: 24.7629 dB
+Epoch 85
+
+Test set: Avg. PSNR: 25.1909 dB
+Epoch 86
+
+Test set: Avg. PSNR: 25.0285 dB
+Epoch 87
+
+Test set: Avg. PSNR: 25.1884 dB
+Epoch 88
+
+Test set: Avg. PSNR: 25.2110 dB
+Epoch 89
+
+Test set: Avg. PSNR: 25.1138 dB
+Epoch 90
+
+Test set: Avg. PSNR: 24.4488 dB
+Epoch 91
+
+Test set: Avg. PSNR: 24.9665 dB
+Epoch 92
+
+Test set: Avg. PSNR: 25.0596 dB
+Epoch 93
+
+Test set: Avg. PSNR: 24.1686 dB
+Epoch 94
+
+Test set: Avg. PSNR: 24.7301 dB
+Epoch 95
+
+Test set: Avg. PSNR: 25.1367 dB
+Epoch 96
+
+Test set: Avg. PSNR: 25.0997 dB
+Epoch 97
+
+Test set: Avg. PSNR: 25.1887 dB
+Epoch 98
+
+Test set: Avg. PSNR: 25.1422 dB
+Epoch 99
+
+Test set: Avg. PSNR: 25.1176 dB
+Epoch 100
+
+Test set: Avg. PSNR: 24.9889 dB
+Epoch 101
+
+Test set: Avg. PSNR: 24.4839 dB
+Epoch 102
+
+Test set: Avg. PSNR: 25.1863 dB
+Epoch 103
+
+Test set: Avg. PSNR: 25.2507 dB
+Epoch 104
+
+Test set: Avg. PSNR: 25.2084 dB
+Epoch 105
+
+Test set: Avg. PSNR: 25.2046 dB
+Epoch 106
+
+Test set: Avg. PSNR: 25.2354 dB
+Epoch 107
+
+Test set: Avg. PSNR: 25.2022 dB
+Epoch 108
+
+Test set: Avg. PSNR: 25.2222 dB
+Epoch 109
+
+Test set: Avg. PSNR: 25.1884 dB
+Epoch 110
+
+Test set: Avg. PSNR: 25.2330 dB
+Epoch 111
+
+Test set: Avg. PSNR: 25.1904 dB
+Epoch 112
+
+Test set: Avg. PSNR: 25.0560 dB
+Epoch 113
+
+Test set: Avg. PSNR: 25.1938 dB
+Epoch 114
+
+Test set: Avg. PSNR: 25.1996 dB
+Epoch 115
+
+Test set: Avg. PSNR: 25.1052 dB
+Epoch 116
+
+Test set: Avg. PSNR: 25.1575 dB
+Epoch 117
+
+Test set: Avg. PSNR: 25.1375 dB
+Epoch 118
+
+Test set: Avg. PSNR: 25.1393 dB
+Epoch 119
+
+Test set: Avg. PSNR: 25.2163 dB
+Epoch 120
+
+Test set: Avg. PSNR: 24.0549 dB
+Epoch 121
+
+Test set: Avg. PSNR: 25.2059 dB
+Epoch 122
+
+Test set: Avg. PSNR: 25.1917 dB
+Epoch 123
+
+Test set: Avg. PSNR: 25.2664 dB
+Epoch 124
+
+Test set: Avg. PSNR: 25.2601 dB
+Epoch 125
+
+Test set: Avg. PSNR: 25.2454 dB
+Epoch 126
+
+Test set: Avg. PSNR: 25.2551 dB
+Epoch 127
+
+Test set: Avg. PSNR: 25.2812 dB
+Epoch 128
+
+Test set: Avg. PSNR: 25.2447 dB
+Epoch 129
+
+Test set: Avg. PSNR: 25.2346 dB
+Epoch 130
+
+Test set: Avg. PSNR: 25.2653 dB
+Epoch 131
+
+Test set: Avg. PSNR: 25.2551 dB
+Epoch 132
+
+Test set: Avg. PSNR: 25.1577 dB
+Epoch 133
+
+Test set: Avg. PSNR: 24.4311 dB
+Epoch 134
+
+Test set: Avg. PSNR: 25.0343 dB
+Epoch 135
+
+Test set: Avg. PSNR: 24.9149 dB
+Epoch 136
+
+Test set: Avg. PSNR: 25.2128 dB
+Epoch 137
+
+Test set: Avg. PSNR: 25.2527 dB
+Epoch 138
+
+Test set: Avg. PSNR: 25.2319 dB
+Epoch 139
+
+Test set: Avg. PSNR: 25.3223 dB
+Epoch 140
+
+Test set: Avg. PSNR: 25.2677 dB
+Epoch 141
+
+Test set: Avg. PSNR: 25.0613 dB
+Epoch 142
+
+Test set: Avg. PSNR: 25.1426 dB
+Epoch 143
+
+Test set: Avg. PSNR: 25.2461 dB
+Epoch 144
+
+Test set: Avg. PSNR: 25.1920 dB
+Epoch 145
+
+Test set: Avg. PSNR: 25.1340 dB
+Epoch 146
+
+Test set: Avg. PSNR: 25.1230 dB
+Epoch 147
+
+Test set: Avg. PSNR: 25.1343 dB
+Epoch 148
+
+Test set: Avg. PSNR: 25.2418 dB
+Epoch 149
+
+Test set: Avg. PSNR: 25.2770 dB
+Epoch 150
+
+Test set: Avg. PSNR: 25.2728 dB
+Epoch 151
+
+Test set: Avg. PSNR: 25.2258 dB
+Epoch 152
+
+Test set: Avg. PSNR: 25.2246 dB
+Epoch 153
+
+Test set: Avg. PSNR: 25.2498 dB
+Epoch 154
+
+Test set: Avg. PSNR: 25.1786 dB
+Epoch 155
+
+Test set: Avg. PSNR: 24.4477 dB
+Epoch 156
+
+Test set: Avg. PSNR: 24.6479 dB
+Epoch 157
+
+Test set: Avg. PSNR: 25.1910 dB
+Epoch 158
+
+Test set: Avg. PSNR: 25.3121 dB
+Epoch 159
+
+Test set: Avg. PSNR: 25.3199 dB
+Epoch 160
+
+Test set: Avg. PSNR: 25.2995 dB
+Epoch 161
+
+Test set: Avg. PSNR: 25.2739 dB
+Epoch 162
+
+Test set: Avg. PSNR: 25.3028 dB
+Epoch 163
+
+Test set: Avg. PSNR: 25.2852 dB
+Epoch 164
+
+Test set: Avg. PSNR: 25.2374 dB
+Epoch 165
+
+Test set: Avg. PSNR: 25.2888 dB
+Epoch 166
+
+Test set: Avg. PSNR: 25.2592 dB
+Epoch 167
+
+Test set: Avg. PSNR: 25.2401 dB
+Epoch 168
+
+Test set: Avg. PSNR: 25.2693 dB
+Epoch 169
+
+Test set: Avg. PSNR: 25.3103 dB
+Epoch 170
+
+Test set: Avg. PSNR: 25.0078 dB
+Epoch 171
+
+Test set: Avg. PSNR: 24.8840 dB
+Epoch 172
+
+Test set: Avg. PSNR: 25.3000 dB
+Epoch 173
+
+Test set: Avg. PSNR: 25.1904 dB
+Epoch 174
+
+Test set: Avg. PSNR: 24.3947 dB
+Epoch 175
+
+Test set: Avg. PSNR: 25.1251 dB
+Epoch 176
+
+Test set: Avg. PSNR: 25.2296 dB
+Epoch 177
+
+Test set: Avg. PSNR: 25.2670 dB
+Epoch 178
+
+Test set: Avg. PSNR: 25.2642 dB
+Epoch 179
+
+Test set: Avg. PSNR: 25.3280 dB
+Epoch 180
+
+Test set: Avg. PSNR: 25.2223 dB
+Epoch 181
+
+Test set: Avg. PSNR: 25.1948 dB
+Epoch 182
+
+Test set: Avg. PSNR: 25.1366 dB
+Epoch 183
+
+Test set: Avg. PSNR: 25.2843 dB
+Epoch 184
+
+Test set: Avg. PSNR: 25.3258 dB
+Epoch 185
+
+Test set: Avg. PSNR: 25.2709 dB
+Epoch 186
+
+Test set: Avg. PSNR: 25.1855 dB
+Epoch 187
+
+Test set: Avg. PSNR: 25.1429 dB
+Epoch 188
+
+Test set: Avg. PSNR: 25.3252 dB
+Epoch 189
+
+Test set: Avg. PSNR: 25.2682 dB
+Epoch 190
+
+Test set: Avg. PSNR: 25.2633 dB
+Epoch 191
+
+Test set: Avg. PSNR: 25.3453 dB
+Epoch 192
+
+Test set: Avg. PSNR: 25.0494 dB
+Epoch 193
+
+Test set: Avg. PSNR: 24.9921 dB
+Epoch 194
+
+Test set: Avg. PSNR: 24.5046 dB
+Epoch 195
+
+Test set: Avg. PSNR: 25.2079 dB
+Epoch 196
+
+Test set: Avg. PSNR: 25.2060 dB
+Epoch 197
+
+Test set: Avg. PSNR: 25.0893 dB
+Epoch 198
+
+Test set: Avg. PSNR: 25.2933 dB
+Epoch 199
+
+Test set: Avg. PSNR: 25.3393 dB
+Epoch 200
+
+Test set: Avg. PSNR: 25.3325 dB
+Epoch 201
+
+Test set: Avg. PSNR: 25.3982 dB
+Epoch 202
+
+Test set: Avg. PSNR: 25.2569 dB
+Epoch 203
+
+Test set: Avg. PSNR: 25.2664 dB
+Epoch 204
+
+Test set: Avg. PSNR: 25.3541 dB
+Epoch 205
+
+Test set: Avg. PSNR: 25.3733 dB
+Epoch 206
+
+Test set: Avg. PSNR: 25.2152 dB
+Epoch 207
+
+Test set: Avg. PSNR: 25.2648 dB
+Epoch 208
+
+Test set: Avg. PSNR: 25.2443 dB
+Epoch 209
+
+Test set: Avg. PSNR: 25.0352 dB
+Epoch 210
+
+Test set: Avg. PSNR: 25.3198 dB
+Epoch 211
+
+Test set: Avg. PSNR: 25.3734 dB
+Epoch 212
+
+Test set: Avg. PSNR: 24.7797 dB
+Epoch 213
+
+Test set: Avg. PSNR: 24.8358 dB
+Epoch 214
+
+Test set: Avg. PSNR: 25.3174 dB
+Epoch 215
+
+Test set: Avg. PSNR: 25.3649 dB
+Epoch 216
+
+Test set: Avg. PSNR: 25.3541 dB
+Epoch 217
+
+Test set: Avg. PSNR: 25.2940 dB
+Epoch 218
+
+Test set: Avg. PSNR: 25.3982 dB
+Epoch 219
+
+Test set: Avg. PSNR: 25.1035 dB
+Epoch 220
+
+Test set: Avg. PSNR: 25.3962 dB
+Epoch 221
+
+Test set: Avg. PSNR: 25.3588 dB
+Epoch 222
+
+Test set: Avg. PSNR: 25.3972 dB
+Epoch 223
+
+Test set: Avg. PSNR: 25.3272 dB
+Epoch 224
+
+Test set: Avg. PSNR: 24.5761 dB
+Epoch 225
+
+Test set: Avg. PSNR: 24.9506 dB
+Epoch 226
+
+Test set: Avg. PSNR: 25.2568 dB
+Epoch 227
+
+Test set: Avg. PSNR: 24.6230 dB
+Epoch 228
+
+Test set: Avg. PSNR: 25.3503 dB
+Epoch 229
+
+Test set: Avg. PSNR: 25.4353 dB
+Epoch 230
+
+Test set: Avg. PSNR: 25.4056 dB
+Epoch 231
+
+Test set: Avg. PSNR: 25.3169 dB
+Epoch 232
+
+Test set: Avg. PSNR: 25.3423 dB
+Epoch 233
+
+Test set: Avg. PSNR: 25.3792 dB
+Epoch 234
+
+Test set: Avg. PSNR: 25.4138 dB
+Epoch 235
+
+Test set: Avg. PSNR: 25.2956 dB
+Epoch 236
+
+Test set: Avg. PSNR: 25.3850 dB
+Epoch 237
+
+Test set: Avg. PSNR: 25.3813 dB
+Epoch 238
+
+Test set: Avg. PSNR: 25.3912 dB
+Epoch 239
+
+Test set: Avg. PSNR: 25.3872 dB
+Epoch 240
+
+Test set: Avg. PSNR: 25.4575 dB
+Epoch 241
+
+Test set: Avg. PSNR: 25.2667 dB
+Epoch 242
+
+Test set: Avg. PSNR: 25.4072 dB
+Epoch 243
+
+Test set: Avg. PSNR: 25.3390 dB
+Epoch 244
+
+Test set: Avg. PSNR: 25.3227 dB
+Epoch 245
+
+Test set: Avg. PSNR: 25.3554 dB
+Epoch 246
+
+Test set: Avg. PSNR: 25.3638 dB
+Epoch 247
+
+Test set: Avg. PSNR: 25.4101 dB
+Epoch 248
+
+Test set: Avg. PSNR: 25.3869 dB
+Epoch 249
+
+Test set: Avg. PSNR: 25.1582 dB
+Epoch 250
+
+Test set: Avg. PSNR: 25.2421 dB
+Epoch 251
+
+Test set: Avg. PSNR: 24.5125 dB
+Epoch 252
+
+Test set: Avg. PSNR: 25.4020 dB
+Epoch 253
+
+Test set: Avg. PSNR: 25.3964 dB
+Epoch 254
+
+Test set: Avg. PSNR: 25.3600 dB
+Epoch 255
+
+Test set: Avg. PSNR: 25.3707 dB
+Epoch 256
+
+Test set: Avg. PSNR: 25.4031 dB
+Epoch 257
+
+Test set: Avg. PSNR: 25.4129 dB
+Epoch 258
+
+Test set: Avg. PSNR: 25.3549 dB
+Epoch 259
+
+Test set: Avg. PSNR: 25.4414 dB
+Epoch 260
+
+Test set: Avg. PSNR: 25.4099 dB
+Epoch 261
+
+Test set: Avg. PSNR: 25.3786 dB
+Epoch 262
+
+Test set: Avg. PSNR: 25.2376 dB
+Epoch 263
+
+Test set: Avg. PSNR: 25.3798 dB
+Epoch 264
+
+Test set: Avg. PSNR: 25.4065 dB
+Epoch 265
+
+Test set: Avg. PSNR: 25.3097 dB
+Epoch 266
+
+Test set: Avg. PSNR: 25.3687 dB
+Epoch 267
+
+Test set: Avg. PSNR: 25.4198 dB
+Epoch 268
+
+Test set: Avg. PSNR: 24.7753 dB
+Epoch 269
+
+Test set: Avg. PSNR: 25.1603 dB
+Epoch 270
+
+Test set: Avg. PSNR: 25.4512 dB
+Epoch 271
+
+Test set: Avg. PSNR: 25.4611 dB
+Epoch 272
+
+Test set: Avg. PSNR: 25.3314 dB
+Epoch 273
+
+Test set: Avg. PSNR: 25.3492 dB
+Epoch 274
+
+Test set: Avg. PSNR: 25.4306 dB
+Epoch 275
+
+Test set: Avg. PSNR: 25.4343 dB
+Epoch 276
+
+Test set: Avg. PSNR: 25.4215 dB
+Epoch 277
+
+Test set: Avg. PSNR: 25.4482 dB
+Epoch 278
+
+Test set: Avg. PSNR: 25.4275 dB
+Epoch 279
+
+Test set: Avg. PSNR: 25.4375 dB
+Epoch 280
+
+Test set: Avg. PSNR: 25.2424 dB
+Epoch 281
+
+Test set: Avg. PSNR: 25.4297 dB
+Epoch 282
+
+Test set: Avg. PSNR: 25.4145 dB
+Epoch 283
+
+Test set: Avg. PSNR: 25.4161 dB
+Epoch 284
+
+Test set: Avg. PSNR: 25.4047 dB
+Epoch 285
+
+Test set: Avg. PSNR: 25.4744 dB
+Epoch 286
+
+Test set: Avg. PSNR: 25.3759 dB
+Epoch 287
+
+Test set: Avg. PSNR: 24.9877 dB
+Epoch 288
+
+Test set: Avg. PSNR: 25.3903 dB
+Epoch 289
+
+Test set: Avg. PSNR: 25.3774 dB
+Epoch 290
+
+Test set: Avg. PSNR: 25.4282 dB
+Epoch 291
+
+Test set: Avg. PSNR: 25.2955 dB
+Epoch 292
+
+Test set: Avg. PSNR: 25.4522 dB
+Epoch 293
+
+Test set: Avg. PSNR: 25.4275 dB
+Epoch 294
+
+Test set: Avg. PSNR: 25.4103 dB
+Epoch 295
+
+Test set: Avg. PSNR: 25.1747 dB
+Epoch 296
+
+Test set: Avg. PSNR: 25.4110 dB
+Epoch 297
+
+Test set: Avg. PSNR: 25.2699 dB
+Epoch 298
+
+Test set: Avg. PSNR: 25.5066 dB
+Epoch 299
+
+Test set: Avg. PSNR: 25.5019 dB
+Epoch 300
+
+Test set: Avg. PSNR: 25.4377 dB
+Epoch 301
+
+Test set: Avg. PSNR: 25.4682 dB
+Epoch 302
+
+Test set: Avg. PSNR: 25.1721 dB
+Epoch 303
+
+Test set: Avg. PSNR: 25.1309 dB
+Epoch 304
+
+Test set: Avg. PSNR: 25.4222 dB
+Epoch 305
+
+Test set: Avg. PSNR: 25.4037 dB
+Epoch 306
+
+Test set: Avg. PSNR: 25.3819 dB
+Epoch 307
+
+Test set: Avg. PSNR: 25.4419 dB
+Epoch 308
+
+Test set: Avg. PSNR: 25.3840 dB
+Epoch 309
+
+Test set: Avg. PSNR: 25.4268 dB
+Epoch 310
+
+Test set: Avg. PSNR: 25.3588 dB
+Epoch 311
+
+Test set: Avg. PSNR: 25.4409 dB
+Epoch 312
+
+Test set: Avg. PSNR: 25.4035 dB
+Epoch 313
+
+Test set: Avg. PSNR: 25.4808 dB
+Epoch 314
+
+Test set: Avg. PSNR: 25.4781 dB
+Epoch 315
+
+Test set: Avg. PSNR: 25.4070 dB
+Epoch 316
+
+Test set: Avg. PSNR: 25.4744 dB
+Epoch 317
+
+Test set: Avg. PSNR: 25.4678 dB
+Epoch 318
+
+Test set: Avg. PSNR: 23.4417 dB
+Epoch 319
+
+Test set: Avg. PSNR: 25.3542 dB
+Epoch 320
+
+Test set: Avg. PSNR: 25.3084 dB
+Epoch 321
+
+Test set: Avg. PSNR: 25.4334 dB
+Epoch 322
+
+Test set: Avg. PSNR: 25.4615 dB
+Epoch 323
+
+Test set: Avg. PSNR: 25.5049 dB
+Epoch 324
+
+Test set: Avg. PSNR: 25.4716 dB
+Epoch 325
+
+Test set: Avg. PSNR: 25.5070 dB
+Epoch 326
+
+Test set: Avg. PSNR: 25.5313 dB
+Epoch 327
+
+Test set: Avg. PSNR: 25.3312 dB
+Epoch 328
+
+Test set: Avg. PSNR: 25.5208 dB
+Epoch 329
+
+Test set: Avg. PSNR: 25.4095 dB
+Epoch 330
+
+Test set: Avg. PSNR: 25.4821 dB
+Epoch 331
+
+Test set: Avg. PSNR: 25.4504 dB
+Epoch 332
+
+Test set: Avg. PSNR: 25.5052 dB
+Epoch 333
+
+Test set: Avg. PSNR: 25.5471 dB
+Epoch 334
+
+Test set: Avg. PSNR: 25.4022 dB
+Epoch 335
+
+Test set: Avg. PSNR: 25.3761 dB
+Epoch 336
+
+Test set: Avg. PSNR: 25.5005 dB
+Epoch 337
+
+Test set: Avg. PSNR: 25.4103 dB
+Epoch 338
+
+Test set: Avg. PSNR: 25.4533 dB
+Epoch 339
+
+Test set: Avg. PSNR: 25.4952 dB
+Epoch 340
+
+Test set: Avg. PSNR: 25.4936 dB
+Epoch 341
+
+Test set: Avg. PSNR: 25.4482 dB
+Epoch 342
+
+Test set: Avg. PSNR: 25.5266 dB
+Epoch 343
+
+Test set: Avg. PSNR: 25.4392 dB
+Epoch 344
+
+Test set: Avg. PSNR: 25.4617 dB
+Epoch 345
+
+Test set: Avg. PSNR: 25.3617 dB
+Epoch 346
+
+Test set: Avg. PSNR: 25.3514 dB
+Epoch 347
+
+Test set: Avg. PSNR: 25.4447 dB
+Epoch 348
+
+Test set: Avg. PSNR: 25.5308 dB
+Epoch 349
+
+Test set: Avg. PSNR: 25.4666 dB
+Epoch 350
+
+Test set: Avg. PSNR: 25.4764 dB
+Trained model written to ./build/float_model/f_model.pth

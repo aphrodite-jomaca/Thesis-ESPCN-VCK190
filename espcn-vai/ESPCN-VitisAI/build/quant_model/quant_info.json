@@ -1,0 +1,26 @@
+{
+  "param":
+  {
+    "Net::conv1.weight":[8,7],
+    "Net::conv1.bias":[8,8],
+    "Net::conv3.weight":[8,8],
+    "Net::conv3.bias":[8,9],
+    "Net::conv4.weight":[8,9],
+    "Net::conv4.bias":[8,10]
+  },
+  "output":
+  {
+    "Net::input_0":[8,7],
+    "Net::Net/Conv2d[conv1]/168":[8,6],
+    "Net::Net/Conv2d[conv3]/188":[8,5],
+    "Net::Net/Conv2d[conv4]/208":[8,7],
+    "Net::Net/Tanh[tanh]/input.3":[8,7],
+    "Net::Net/Tanh[tanh]/input":[8,7]
+  },
+  "input":
+  {
+
+  },
+  "fast_finetuned":false,
+  "bias_corrected":true
+}

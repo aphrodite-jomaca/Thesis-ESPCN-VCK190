@@ -1,0 +1,10 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "ESPCN_vck190.xmodel",
+    "kernel": [
+        "subgraph_Net__Net_Conv2d_conv3__188",
+        "subgraph_Net__Net_Conv2d_conv4__208",
+        "subgraph_Net__Net_Conv2d_conv1__168"
+    ],
+    "target": "DPUCVDX8G_ISA3_C32B6"
+}
